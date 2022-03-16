@@ -5,6 +5,7 @@ import jumboData from "./fixtures/jumbo";
 function App() {
   return (
     <Jumbotron.Container>
+      
       {jumboData.map((item) => {
         return (
           <Jumbotron key={item.id} direction={item.direction}>
